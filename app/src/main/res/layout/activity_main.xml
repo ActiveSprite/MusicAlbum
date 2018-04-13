@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.meituan.musicalbum.MainActivity">
+
+    <com.example.meituan.musicalbum.MusicAlbumView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:rotateViewIcon="@drawable/ic_alarm_add_grey600_36dp"
+        app:playIcon="@drawable/ic_pause_circle_outline_grey600_36dp"
+        app:pauseIcon="@drawable/ic_play_circle_outline_grey600_36dp"
+        >
+
+    </com.example.meituan.musicalbum.MusicAlbumView>
+
+</android.support.constraint.ConstraintLayout>
